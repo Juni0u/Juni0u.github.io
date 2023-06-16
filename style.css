@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .fa-big{
+      font-size: 40px;
+      text-decoration: none;
+      color: white;
+   }
+  
+   .fa-smol{
+      font-size: 40px;
+      text-decoration: none;
+      color: white;
+   }
+  
+  a:link{
+    color: rgb(241,148,138);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: none;
+    display: grid;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+  }
+    
+  /* Change color to active */
+  .navbar a:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+  }
+
+   /* Main column */
+  .main {   
+    align-self: center;
+    -ms-flex: 10%; /* IE10 */
+    flex: 10%; 
+    max-width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .row {   
+      overflow-x: hidden;
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
