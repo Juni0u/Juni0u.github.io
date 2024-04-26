@@ -38,19 +38,19 @@
     <!-- start of spoiler-->
     <p class="indented-paragraph2", align="justify">
     </p>
-    <p class="indented-paragraph4", align="justify">
+    <p align="justify">
       This is a report given to the class "Experiment Design in Computer Science", taught by Professor Claus Aranha during Master's course in 
       Computer Science in the University of Tsukuba in 2022. You can find more info about this course 
       <a href=https://github.com/caranha/ExperimentDesignCS>here</a>.
     </p>
-    <p class="indented-paragraph4", align="justify">
+    <p align="justify">
       This report aims to investigate the results of soccer games regarding the win-ratio of soccer
       teams in each place they play. That is, analyze the ratio of wins for the home team and
       compare different sets of positive results. A draw may or may not be a positive result, and for
       this reason experiments are done by considering all possible roles for it: draw as a negative
       result, positive result and not considering draw in the analysis.
     </p>
-    <p class="indented-paragraph4", align="justify">
+    <p align="justify">
       It is expected by the end of this experiment to have ratios of positive results against negative
       results for the home team and determine with a certain level of confidence an interval of
       percentage of games that the home team obtains a positive result in different considerations
@@ -68,10 +68,28 @@
   <input type="checkbox" id="spoiler3-toggle" class="spoiler3-toggle">
   <div class="spoiler3-content">
     <!-- start of spoiler-->
-    <p class="indented-paragraph4", align="justify">
+    <p align="justify">
       This project started as a way to practice coding in pico8. I didn't finish all days of the challenge (yet?)
       but it was very fun coding and seeing stuff working in pico8. 
     </p>
+    <div class="divider"></div>
+    <!-- end of spoiler -->
+    </div>
+
+  <!--My Game-->  
+  <label for="spoiler4-toggle" class="spoiler-heading" ><p class="indented-paragraph2"><li>[<span style="color: red">Game</span>] Bloop! Jump
+    [<a href="https://djuniou.itch.io/bloop-jump">Play on itch!</a>]
+  </li>
+  </p></label>
+  <input type="checkbox" id="spoiler4-toggle" class="spoiler4-toggle">
+  <div class="spoiler4-content">
+    <!-- start of spoiler-->
+    <p>
+      This game was my first game and also my entry on lowrezjam-2023! It is a platformer where your goal is to take this bloob to the top! 
+    </p>
+    
+    <iframe height="167" frameborder="3" src="https://itch.io/embed/2216604" width="552"><a href="https://djuniou.itch.io/bloop-jump">Bloop! Jump by Djuniou</a></iframe>
+
     <div class="divider"></div>
     <!-- end of spoiler -->
     </div>
@@ -86,44 +104,34 @@
   <input type="checkbox" id="spoiler2-toggle" class="spoiler2-toggle">
   <div class="spoiler2-content">
     <!-- start of spoiler-->
-    <p class="indented-paragraph4", align="justify">
+    <p align="justify">
       The main goal of this project is to practice Evolutionary Algorithms using python. 
       In order to do this, an evolutionary approach will be applied to a specific problem. 
       In this case, the problem to be solved is to determine the combination of atributes 
       of an NPC from a forum rpg so that, such combination of atributes achieves a specific 
       probability of winning a fight agaisnt a given opponent.
     </p>
-    <p class="indented-paragraph4", align="justify">
+    <p align="justify">
       In this RPG each character has atributes that are compared when they battle. It is 
       difficult for a Game Master to build a balanced file for an enemy. The idea of this 
       project is to take the burden of the GM, so they can focus on story alone. This code 
-      will receive the Player's data (level and atributes), and a probability that states the 
+      will receive the Player's data (atributes), and a probability that states the 
       chances of this enemy winning a fight agaisnt the player. The GM might want to create an 
       easy enemy, so they can give as input 30%. This means this enemy won the Player 30% of the 
-      times in X number of fights. The code will output the atributes of such enemy.
+      times in X number of fights. The code will run an EA where each individual fights agaisnt the player
+      and the % of wins acts as it fitness. The fitness function is how far from the desired win-rate the
+      NPC is.
     </p>
+    <p align="justify">
+      <span style="color: red">Updates:</span>
+      <p align="justify">04-26-2024 - Rough program is done. Now to make a simple interface.</p>
+    </p>
+    
     <div class="divider"></div>
     <!-- end of spoiler -->
     </div>
 
-    <!--My Game-->  
-    <label for="spoiler4-toggle" class="spoiler-heading" ><p class="indented-paragraph2"><li>[<span style="color: red">Game</span>] Bloop! Jump
-      [<a href="https://djuniou.itch.io/bloop-jump">Play on itch!</a>]
-      (<span class="blinking-text2">In progress...</span>)
-    </li>
-    </p></label>
-    <input type="checkbox" id="spoiler4-toggle" class="spoiler4-toggle">
-    <div class="spoiler4-content">
-      <!-- start of spoiler-->
-      <p class="indented-paragraph4", align="justify">
-        This game was my first game and also my entry on lowrezjam-2023! It is a platformer where your goal is to take this bloob to the top! I do intent to still update it with one or two levels. :D 
-      </p>
-      
-      <iframe height="167" frameborder="3" src="https://itch.io/embed/2216604" width="552"><a href="https://djuniou.itch.io/bloop-jump">Bloop! Jump by Djuniou</a></iframe>
- 
-      <div class="divider"></div>
-      <!-- end of spoiler -->
-      </div>
+
       
   </u1> 
 

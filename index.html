@@ -25,11 +25,12 @@
     <a href="projects.html">PROJECTS</a>
     <a href="aboutme.html">ABOUT ME</a>
   </div>
-  <div class="divider"></div>
+  <div class="divider"></div>  
 
   <center><h3><span style="color: red">F</span>E<span style="color: red">L</span>IPE NON<span style="color: red">A</span>TO</h3></center>
   <center><img src="/imgs/avatar.jpg" alt="myavatar" style="width:200px;height:200px;"></center>
   <center>
+    <br>
   <a href="https://twitter.com/Juni0u"><i class="fa fa-twitter-square fa-big" aria-hidden="true"></i></a>
   <a href="https://mastodon.gamedev.place/@djuniou"><i class="fab fa-mastodon" style="color: #000000;"></i></a>
   <a href="https://github.com/Juni0u"><i class="fa fa-github-square fa-big" aria-hidden="true"></i></a>
@@ -39,50 +40,53 @@
   <a href="https://www.twitch.tv/djuniou"><i class="fa fa-brands fa-twitch fa-big" style="color: #ffffff;"></i></a>
   <a href="https://djuniou.itch.io/"><i class="fa fa-gamepad fa-big" aria-hidden="true"></i></a>
    <br>
+   <br>
   </center>
   <center><i class="fa fa-location-arrow" aria-hidden="true"></i> Tsukuba, Japan</center>
-  <center>CS Master's student in the University of Tsukuba</center>
-  <center>Graphs are cool.</center>
+  <center>CS PhD student in the University of Tsukuba</center>
+  <center>    <a id="quote"></a>  </center></center>
   <br>
-
-  <div class="blog-posts" align="left">
-    <p align="justify">Hey there, I'm <span style="color: red">Felipe</span>! Welcome to my blog and/or website!
-    </p>
-    <div class="divider"></div>
-
-
-    <h3>Recent Blog Posts</h3>
-    <ul>
-        <li><a href="blog_posts/2023set6.html">Blog Post Title #1 (2023 Set 6th)</a></li>
-        <li><a href="blog_posts/2024jan5.html">Week 1 - Procrastination (2024 Jan 5th)</a></li>
-        <!-- Add more post titles and links as needed -->
-    </ul>
-    <br>
-    <h3>Categories</h3>
-
-    <h4>General</h4>
-        <li><a href="blog_posts/2023set6.html">Blog Post Title #1 (2023 Set 6th)</a></li>
-
-    <h4>Short Stories</h4>
-        <li><a href="blog_posts/2024jan5.html">Week 1 - Procrastination (2024 Jan 5th)</a></li>
-
-  </div>
-
-
-
-
-   
-
-
-
+  <div class="divider"></div>
 </div>
 
+<script>
+  const quotes = [
+    "I used to think I was indecisive. But now I'm not so sure...",
+    "My wife told me to stop impersonating a flamingo. I had to put my foot down.",
+    "I failed math so many times at school, I can’t even count.",
+    "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.",
+    "I know they say that money talks, but all mine says is ‘Goodbye.’",
+    "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+    "Never trust atoms; they make up everything.",
+    "I'd tell you guys a chemistry joke, but I know I wouldn't get a reaction.",
+    "When my friend arrived at work his boss told him to have a good day. So my friend went back home. ",
+    "A told my wife she drew her eyebrows too high. She seemed surprised.",
+    "Two fish are in a tank. One says, ‘How do you drive this thing?’",
+    "Just burned 2000 calories. That’s the last time I leave brownies in the oven while I nap.",
+    "I don’t suffer from insanity—I enjoy every minute of it.",
+    "I’m reading a book about anti-gravity. It’s impossible to put down.",
+    "I got a new pair of gloves today, but they’re both ‘lefts,’ which on the one hand is great, but on the other, it’s just not right.",
+    "I didn’t think orthopedic shoes would help, but I stand corrected.",
+    "Blunt pencils are really pointless.",
+    "What’s the difference between ignorance and apathy? I don’t know and I don’t care.",
+    "My friend was explaining electricity to me, but I was like, ‘Watt?’",
+    "Four fonts walk into a bar. The bartender says, ‘Hey! We don’t want your type in here!’",
+    "The man who invented knock-knock jokes should get a no bell prize.",
+    "The first time I got a universal remote control, I thought to myself, ‘This changes everything.’",
+    "How do you make holy water? You boil the hell out of it.",
+    "I was going to tell a time-traveling joke, but you guys didn’t like it.",
+    "Justice is a dish best served cold. If it were served warm, it would be just-water.",
+    // Add more quotes to the list here
+  ];
 
+  function getRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    return quotes[randomIndex];
+  }
 
-
-<!-- <div class="footer">
-  <h2>Footer</h2>
-</div> -->
+  const quoteElement = document.getElementById("quote");
+  quoteElement.textContent = getRandomQuote();
+</script>
 
 </body>
 </html>
