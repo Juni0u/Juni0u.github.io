@@ -52,12 +52,12 @@ icon:link {
 }
 
 a {
-  color:#39c;
+  color:rgb(153, 49, 49);
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:rgb(255, 0, 0);
 }
 
 a small {
